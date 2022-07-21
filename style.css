@@ -12,11 +12,36 @@ line-height:1.6em;
 margin:0;
 }
 
+a{
+text-decoration:none;
+color:black;
+}
+a:hover{
+
+    color:red;
+
+}
+a:active{
+
+    color:green;
+
+}
+a:visited{
+
+    color:purple';
+}
 .container{
 
-    width:80%px;
+    width:80%;
     margin:auto;
 
+}
+
+.button{
+    background-color:darkolivegreen;
+    color:indianred;
+    padding: 10px 15px;
+    border:none;
 }
 .box-1{
 
@@ -50,6 +75,51 @@ margin:20px;
 .box-2{
 
     border: 5px orange dotted;
-    
+    padding:20px;
+    margin:20px 0;
 
+
+}
+
+.categories{
+
+border: 1px lightgrey solid;
+padding:10px;
+border-radius:15px;
+}
+
+.categories h2{
+
+    text-align: center;
+}
+
+.categories ul{
+
+    padding:40 px;
+}
+.categories li{
+    padding-bottom:8px;
+    border-bottom:2px solid black;
+    list-style-image: url('./images/check.png');
+}
+
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+padding:5px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+
+    padding:8px;
+    width:100%;
+}
+
+.block{
+float:left;
+width:33.33%;
 }
